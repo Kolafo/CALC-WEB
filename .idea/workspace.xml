@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5e7254c5-4eb6-4c25-b26e-d2404bb3c846" name="Changes" comment="нормас так">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONT/calc-back.js" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/calc-back.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONT/calc-corp.html" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/calc-corp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONT/calc-front.css" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/calc-front.css" afterDir="false" />
     </list>
@@ -83,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712474357063</updated>
       <workItem from="1712474358160" duration="1920000" />
-      <workItem from="1712476313378" duration="6692000" />
+      <workItem from="1712476313378" duration="8286000" />
     </task>
     <task id="LOCAL-00001" summary="table">
       <option name="closed" value="true" />

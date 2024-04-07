@@ -2,15 +2,18 @@
 <html lang="en">
     <head>
         <link href ="calc-front.css" rel="stylesheet">
+        <script src="calc-back.js"></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Calculator</title>
     </head>
 
     <body>
-        <table>
+        <table class = 'container'>
             <tr>
-                <td colspan="4"><output class="output"></output></td>
+                <td colspan="4">
+                    <output class="output" id = "result"></output>
+                </td>
             </tr>
             <tr>
                 <td>
@@ -31,10 +34,10 @@
                     <input type="button" value="7" onclick="updateOutput(this.value)">
                 </td>
                 <td>
-                    <input type="button" value="8">
+                    <input type="button" value="8" onclick="updateOutput(this.value)">
                 </td>
                 <td>
-                    <input type="button" value="9">
+                    <input type="button" value="9" onclick="updateOutput(this.value)">
                 </td>
                 <td>
                     <input type="button" value="×">
@@ -42,13 +45,13 @@
             </tr>
             <tr>
                 <td>
-                    <input type="button" value="4">
+                    <input type="button" value="4" onclick="updateOutput(this.value)">
                 </td>
                 <td>
-                    <input type="button" value="5">
+                    <input type="button" value="5" onclick="updateOutput(this.value)">
                 </td>
                 <td>
-                    <input type="button" value="6">
+                    <input type="button" value="6" onclick="updateOutput(this.value)">
                 </td>
                 <td>
                     <input type="button" value="-">
@@ -56,13 +59,13 @@
             </tr>
             <tr>
                 <td>
-                    <input type="button" value="1">
+                    <input type="button" value="1" onclick="updateOutput(this.value)">
                 </td>
                 <td>
-                    <input type="button" value="2">
+                    <input type="button" value="2" onclick="updateOutput(this.value)">
                 </td>
                 <td>
-                    <input type="button" value="3">
+                    <input type="button" value="3" onclick="updateOutput(this.value)">
                 </td>
                 <td>
                     <input type="button" value="+">
@@ -73,7 +76,7 @@
                     <input type="button" value="↺">
                 </td>
                 <td>
-                    <input type="button" value="0">
+                    <input type="button" value="0" onclick="updateOutput(this.value)">
                 </td>
                 <td>
                     <input type="button" value=",">
