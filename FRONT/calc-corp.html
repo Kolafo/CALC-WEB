@@ -3,19 +3,21 @@
     <head>
         <link href ="calc-front.css" rel="stylesheet">
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Calculator</title>
     </head>
+
     <body>
         <table>
             <tr>
-                <td colspan="4"></td>
+                <td colspan="4"><output class="output"></output></td>
             </tr>
             <tr>
                 <td>
                     <input type="reset" value="C">
                 </td>
                 <td>
-                    <input type="button" value="<-">
+                    <input type="button" value="←">
                 </td>
                 <td>
                     <input type="button" value="%">
@@ -26,7 +28,7 @@
             </tr>
             <tr>
                 <td>
-                    <input type="button" value="7">
+                    <input type="button" value="7" onclick="updateOutput(this.value)">
                 </td>
                 <td>
                     <input type="button" value="8">
@@ -35,7 +37,7 @@
                     <input type="button" value="9">
                 </td>
                 <td>
-                    <input type="button" value="X">
+                    <input type="button" value="×">
                 </td>
             </tr>
             <tr>
@@ -68,7 +70,7 @@
             </tr>
             <tr>
                 <td>
-                    <input type="button" value="CH">
+                    <input type="button" value="↺">
                 </td>
                 <td>
                     <input type="button" value="0">

@@ -1,20 +1,38 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Cambria Math', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
 body{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    /*background: #222;*/
 }
+
 table{
-    width: 50%;
-    height: 50%;
+    width: 25%;
+    height: 60%;
     border-spacing: 0;
 }
+
 input{
     width: 100%;
     height: 100%;
     margin:0;
 }
+
+.output{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+}
+
 td,tr{
     margin:0;
 }
