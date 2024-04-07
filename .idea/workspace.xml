@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONT/calc-back.js" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/calc-back.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONT/calc-corp.html" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/calc-corp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/calc-front.css" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/calc-front.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712474357063</updated>
       <workItem from="1712474358160" duration="1920000" />
-      <workItem from="1712476313378" duration="8286000" />
+      <workItem from="1712476313378" duration="13221000" />
     </task>
     <task id="LOCAL-00001" summary="table">
       <option name="closed" value="true" />
