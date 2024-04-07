@@ -23,10 +23,10 @@
                     <input type="button" value="←" onclick="backspace()">
                 </td>
                 <td>
-                    <input type="button" value="%">
+                    <input type="button" value="%" onclick="updateOutput(this.value)">
                 </td>
                 <td>
-                    <input type="button" value="/">
+                    <input type="button" value="/" onclick="operator(this.value)">
                 </td>
             </tr>
             <tr>
@@ -40,7 +40,7 @@
                     <input type="button" value="9" onclick="updateOutput(this.value)">
                 </td>
                 <td>
-                    <input type="button" value="×">
+                    <input type="button" value="×" onclick="operator(this.value)">
                 </td>
             </tr>
             <tr>
@@ -54,7 +54,7 @@
                     <input type="button" value="6" onclick="updateOutput(this.value)">
                 </td>
                 <td>
-                    <input type="button" value="-">
+                    <input type="button" value="-" onclick="operator(this.value)">
                 </td>
             </tr>
             <tr>
@@ -68,7 +68,7 @@
                     <input type="button" value="3" onclick="updateOutput(this.value)">
                 </td>
                 <td>
-                    <input type="button" value="+">
+                    <input type="button" value="+" onclick="operator(this.value)">
                 </td>
             </tr>
             <tr>
@@ -79,7 +79,7 @@
                     <input type="button" value="0" onclick="updateOutput(this.value)">
                 </td>
                 <td>
-                    <input type="button" value=",">
+                    <input type="button" value="," onclick="updateOutput(this.value)">
                 </td>
                 <td>
                     <input type="submit" value="=">
