@@ -7,7 +7,7 @@
     <list default="true" id="5e7254c5-4eb6-4c25-b26e-d2404bb3c846" name="Changes" comment="work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONT/calc-back.js" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/calc-back.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/calc-front.css" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/calc-front.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONT/calc-corp.html" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/calc-corp.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "JavaScript Debug.calc-corp.html.executor": "Run",
+    "JavaScript Debug.calc-corp.html.executor": "Debug",
     "Node.js.TEST.js.executor": "Run",
     "Node.js.calc-back.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -63,7 +63,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -72,7 +72,7 @@
       <recent name="C:\Users\kolaf\OneDrive\Документы\GitHub\CALC-WEB-\FRONT" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.calc-corp.html">
     <configuration name="calc-corp.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CALC-WEB-/FRONT/calc-corp.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -108,7 +108,8 @@
       <workItem from="1712541211188" duration="1812000" />
       <workItem from="1712573493667" duration="4669000" />
       <workItem from="1712578192947" duration="4459000" />
-      <workItem from="1712582689767" duration="6400000" />
+      <workItem from="1712582689767" duration="6663000" />
+      <workItem from="1712589417933" duration="1514000" />
     </task>
     <task id="LOCAL-00001" summary="table">
       <option name="closed" value="true" />
@@ -214,7 +215,31 @@
       <option name="project" value="LOCAL" />
       <updated>1712587369448</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="work">
+      <option name="closed" value="true" />
+      <created>1712589315523</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1712589315523</updated>
+    </task>
+    <task id="LOCAL-00015" summary="work">
+      <option name="closed" value="true" />
+      <created>1712589332503</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1712589332503</updated>
+    </task>
+    <task id="LOCAL-00016" summary="work">
+      <option name="closed" value="true" />
+      <created>1712589400355</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1712589400355</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
