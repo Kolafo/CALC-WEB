@@ -41,17 +41,3 @@ function operando(value) {
         document.getElementById('result').innerText = all;
     }
 }
-
-const container = document.querySelector('.output');
-
-container.addEventListener('input', function() {
-    container.scrollLeft = container.scrollWidth;
-});
-const scrollText = () => {
-    if (isScrolling) {
-        container.scrollLeft = container.scrollWidth;
-        isScrolling = false;
-    }
-}
-
-setInterval(scrollText, 100); // Проверка каждые 100 миллисекунд
