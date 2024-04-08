@@ -35,7 +35,6 @@ function insert(value) {
 
 function operando(value) {
     if (current.length != 0) {
-
         all = current + value
         current = '';
         document.getElementById('result').innerText = all;
