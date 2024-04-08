@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e7254c5-4eb6-4c25-b26e-d2404bb3c846" name="Changes" comment="нормас так">
+    <list default="true" id="5e7254c5-4eb6-4c25-b26e-d2404bb3c846" name="Changes" comment="refactor&#10;полностью перезаписал структуру руками">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONT/calc-corp.html" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/calc-corp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONT/calc-front.css" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/calc-front.css" afterDir="false" />
@@ -85,7 +85,7 @@
       <workItem from="1712474358160" duration="1920000" />
       <workItem from="1712476313378" duration="15734000" />
       <workItem from="1712541211188" duration="1812000" />
-      <workItem from="1712573493667" duration="1896000" />
+      <workItem from="1712573493667" duration="4385000" />
     </task>
     <task id="LOCAL-00001" summary="table">
       <option name="closed" value="true" />
@@ -143,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712556505973</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="refactor&#10;полностью перезаписал структуру руками">
+      <option name="closed" value="true" />
+      <created>1712575627878</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712575627878</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +172,9 @@
     <MESSAGE value="table" />
     <MESSAGE value="ОЦЕНТРОВАНО" />
     <MESSAGE value="нормас так" />
-    <option name="LAST_COMMIT_MESSAGE" value="нормас так" />
+    <MESSAGE value="Ну я не знаю" />
+    <MESSAGE value="refactor" />
+    <MESSAGE value="refactor&#10;полностью перезаписал структуру руками" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor&#10;полностью перезаписал структуру руками" />
   </component>
 </project>
