@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e7254c5-4eb6-4c25-b26e-d2404bb3c846" name="Changes" comment="refactor">
+      <change afterPath="$PROJECT_DIR$/FRONT/calculator-1024.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONT/calc-corp.html" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/calc-corp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONT/calc-front.css" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/calc-front.css" afterDir="false" />
@@ -42,22 +43,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.calc-corp.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kolaf/OneDrive/Документы/GitHub/CALC-WEB-/FRONT/calc-corp.html&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.calc-corp.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/kolaf/OneDrive/Документы/GitHub/CALC-WEB-/FRONT",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kolaf\OneDrive\Документы\GitHub\CALC-WEB-\FRONT" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="calc-corp.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CALC-WEB-/FRONT/calc-corp.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -87,7 +93,7 @@
       <workItem from="1712476313378" duration="15734000" />
       <workItem from="1712541211188" duration="1812000" />
       <workItem from="1712573493667" duration="4669000" />
-      <workItem from="1712578192947" duration="2282000" />
+      <workItem from="1712578192947" duration="3553000" />
     </task>
     <task id="LOCAL-00001" summary="table">
       <option name="closed" value="true" />
@@ -161,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712578167410</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="refactor">
+      <option name="closed" value="true" />
+      <created>1712580505750</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712580505750</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
