@@ -25,7 +25,7 @@
                 <button id = 'percent' value="&percnt;" onclick="percent()">
                     &percnt;
                 </button>
-                <button id = 'divide' value="&divide;" onclick="divide()">
+                <button id = 'divide' value="&divide;" onclick="operando(value)">
                     &divide;
                 </button>
             </div>
@@ -39,7 +39,7 @@
                 <button value = '9' onclick="insert(value)">
                     9
                 </button>
-                <button>
+                <button value="&times;" onclick="operando(value)">
                     &times;
                 </button>
             </div>
@@ -53,7 +53,7 @@
                 <button value="6" onclick="insert(value)">
                     6
                 </button>
-                <button>
+                <button value="&minus;" onclick="operando(value)">
                     &minus;
                 </button>
             </div>
@@ -67,7 +67,7 @@
                 <button value="3" onclick="insert(value)">
                     3
                 </button>
-                <button>
+                <button value="&plus;" onclick="operando(value)">
                     &plus;
                 </button>
             </div>
@@ -78,7 +78,7 @@
                 <button value="0" onclick="insert(value)">
                     0
                 </button>
-                <button>
+                <button value="." onclick="insert(value)">
                     .
                 </button>
                 <button>

@@ -1,26 +1,35 @@
 let ans = '';
 let current = '';
-function clearAll(){
+let all = '';
+
+function clearAll() {
     ans = '';
-    current='';
+    current = '';
+    all = '';
     document.getElementById('result').innerText = '0';
 }
 
-function backspace(){
-    if (current.length===1){
+function backspace() {
+    if (current.length === 1 || current==='') {
         current = '0';
-    }
-    else {
+    } else {
         current = current.slice(0, -1);
     }
     document.getElementById('result').innerText = current;
 }
 
-function insert(value){
-    current = current + value;
+function insert(value) {
+    if (value==='0' && document.getElementById('result').innerText==='0') {
+        return;
+    }
+    current += value;
     document.getElementById('result').innerText = current;
 }
-function divide(){
-    ans = ans.toString() + "/";
-    document.getElementById('result').innerText = ans;
+
+function operando(value) {
+    if (current.length != 0) {
+        all = current + value
+        current = '';
+        document.getElementById('result').innerText = all;
+    }
 }
