@@ -22,7 +22,6 @@ function backspace() {
         document.getElementById('result').innerText = current;
     }
 }
-
 function insert(value) {
     if (document.getElementById('result').innerText === '0' && value === '.') {
         document.getElementById('result').innerText = '0.';
