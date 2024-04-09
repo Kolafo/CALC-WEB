@@ -1,7 +1,12 @@
 let ans = 0;
 let current = '';
 let operand = '';
+let sum = 0;
 // let all = '';
+
+function outputAns(ans) {
+    document.getElementById('result').innerText = ans;
+}
 
 function clearAll() {
     ans = 0;
@@ -11,6 +16,11 @@ function clearAll() {
 }
 
 function backspace() {
+    if (operand != '' && current.length === 1) {
+        current = '0';
+        document.getElementById('result').innerText = current;
+        return;
+    }
     if (document.getElementById('result').innerText === '0') {
         return;
     }
@@ -25,11 +35,11 @@ function backspace() {
 
 function insert(value) {
     if (document.getElementById('result').innerText === '0' && value === '.') {
-        document.getElementById('result').innerText = '0.';
         current = '0.';
+        document.getElementById('result').innerText = current;
         return;
     }
-    if ((value === '0') && document.getElementById('result').innerText === '0') {
+    if (value === '0' && document.getElementById('result').innerText === '0') {
         return;
     }
     if (value === '.' && current.includes('.')) {
@@ -37,21 +47,28 @@ function insert(value) {
     }
     current += value;
     document.getElementById('result').innerText = current;
+    console.log(current+'!')
 }
 
 function operando(value) {
     /*        all = current + value*/
+    console.log(current)
     if (current != '') {
         val = parseFloat(current)
         current = '';
+    }
+    if (operand != '') {
+
     }
     operand = value;
     document.getElementById('result').innerText = value;
 }
 
 function percent() {
-    ans = parseFloat(document.getElementById('result').innerText) / 100;
-    document.getElementById('result').innerText = ans;
+    if (typeof parseFloat(document.getElementById('result').innerText) === 'number') {
+        ans = parseFloat(document.getElementById('result').innerText) / 100;
+        document.getElementById('result').innerText = ans;
+    }
 }
 
 function calculate() {
