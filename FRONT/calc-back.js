@@ -1,7 +1,6 @@
 let ans = 0;
 let current = '';
-let operand = ''
-
+let operand = '';
 // let all = '';
 
 function clearAll() {
@@ -42,14 +41,16 @@ function insert(value) {
 
 function operando(value) {
     /*        all = current + value*/
-    val = parseFloat(current)
-    current = '';
+    if (current != '') {
+        val = parseFloat(current)
+        current = '';
+    }
     operand = value;
     document.getElementById('result').innerText = value;
 }
 
 function percent() {
-    ans = ans / 100;
+    ans = parseFloat(document.getElementById('result').innerText) / 100;
     document.getElementById('result').innerText = ans;
 }
 

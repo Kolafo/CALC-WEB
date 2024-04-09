@@ -51,7 +51,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "JavaScript Debug.calc-corp.html.executor": "Debug",
+    "JavaScript Debug.calc-corp.html.executor": "Run",
     "Node.js.TEST.js.executor": "Run",
     "Node.js.calc-back.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -110,6 +110,8 @@
       <workItem from="1712578192947" duration="4459000" />
       <workItem from="1712582689767" duration="6663000" />
       <workItem from="1712589417933" duration="1514000" />
+      <workItem from="1712632086756" duration="80000" />
+      <workItem from="1712667036914" duration="1053000" />
     </task>
     <task id="LOCAL-00001" summary="table">
       <option name="closed" value="true" />
