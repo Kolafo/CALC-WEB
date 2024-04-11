@@ -13,6 +13,7 @@ function clearAll() {
 }
 
 function backspace() {
+
     if (operand != '' && current.length === 1) {
         current = '0';
         document.getElementById('result').innerText = current;
@@ -34,6 +35,9 @@ function insert(value) {
     if (document.getElementById('result').innerText === '0' && value === '.') {
         current = '0.';
         document.getElementById('result').innerText = current;
+        return;
+    }
+    if (value === '.' && current === '' && operand != '') {
         return;
     }
     if (value === '0' && document.getElementById('result').innerText === '0') {

@@ -7,6 +7,7 @@
     <list default="true" id="5e7254c5-4eb6-4c25-b26e-d2404bb3c846" name="Changes" comment="какой-то нерабочий кусок го***, завтра разберусь">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONT/calc-back.js" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/calc-back.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONT/calc-corp.html" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/calc-corp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONT/calc-front.css" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/calc-front.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,9 +77,6 @@
     <configuration name="calc-corp.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CALC-WEB-/FRONT/calc-corp.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="TEST.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="TEST.js" working-dir="$PROJECT_DIR$/FRONT">
-      <method v="2" />
-    </configuration>
     <configuration name="calc-back.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="calc-back.js" working-dir="$PROJECT_DIR$/FRONT">
       <method v="2" />
     </configuration>
@@ -114,6 +112,7 @@
       <workItem from="1712667036914" duration="2225000" />
       <workItem from="1712671367536" duration="1929000" />
       <workItem from="1712812454636" duration="4079000" />
+      <workItem from="1712874672801" duration="1812000" />
     </task>
     <task id="LOCAL-00001" summary="table">
       <option name="closed" value="true" />
