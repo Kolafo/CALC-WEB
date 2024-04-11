@@ -2,11 +2,8 @@ let ans = 0;
 let current = '';
 let operand = '';
 let sum = 0;
-// let all = '';
 
-function outputAns(ans) {
-    document.getElementById('result').innerText = ans;
-}
+// let all = '';
 
 function clearAll() {
     ans = 0;
@@ -47,7 +44,7 @@ function insert(value) {
     }
     current += value;
     document.getElementById('result').innerText = current;
-    console.log(current+'!')
+    console.log(current + '!')
 }
 
 function operando(value) {
@@ -57,17 +54,31 @@ function operando(value) {
         val = parseFloat(current)
         current = '';
     }
-    if (operand != '') {
-
-    }
     operand = value;
     document.getElementById('result').innerText = value;
 }
 
 function percent() {
-    if (typeof parseFloat(document.getElementById('result').innerText) === 'number') {
-        ans = parseFloat(document.getElementById('result').innerText) / 100;
-        document.getElementById('result').innerText = ans;
+    console.log(parseFloat(document.getElementById('result').innerText))
+    if (operand === '') {
+        current = (parseFloat(document.getElementById('result').innerText) / 100).toString();
+        document.getElementById('result').innerText = current;
+    } else {
+        switch (operand) {
+            case '+':
+                current = (val * parseFloat(current)/100).toString()
+                break;
+            case '−':
+                current = (val * parseFloat(current)/100).toString()
+                break;
+            case '×':
+                current = (val / 100).toString()
+                break;
+            case '÷':
+                current = (val / 100).toString()
+                break;
+        }
+        document.getElementById('result').innerText = current
     }
 }
 
