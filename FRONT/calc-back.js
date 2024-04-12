@@ -13,10 +13,9 @@ function clearAll() {
 }
 
 function backspace() {
-
     if (operand != '' && current.length === 1) {
-        current = '0';
-        document.getElementById('result').innerText = current;
+        current = '';
+        document.getElementById('result').innerText = '0';
         return;
     }
     if (document.getElementById('result').innerText === '0') {
@@ -52,6 +51,7 @@ function insert(value) {
 }
 
 function operando(value) {
+    console.log(value, current, 'operand')
     /*        all = current + value*/
     console.log(current)
     if (current != '') {
@@ -87,6 +87,7 @@ function percent() {
 }
 
 function calculate() {
+    console.log(current, operand, val, 'ans')
     if (val === '' || operand === '') {
         switch (operand) {
             case '+':
