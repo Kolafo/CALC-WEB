@@ -3,7 +3,7 @@
 }
 
 #result{
-    border: 3px ridge black;
+    border: 3px solid black;
     border-radius: 15px;
     background: wheat;
     padding: 10px 10px;
@@ -17,7 +17,7 @@ div.container{
     display: grid;
     height: 600px;
     width: 400px;
-    border: 3px ridge black;
+    border: 4px solid black;
     border-radius: 15px;
     background-color: #cf9f00;
 }
@@ -37,7 +37,7 @@ button{
     width: 80px;
     font-size: 20px;
     border: 3px solid black;
-    border-radius: 15px;
+    border-radius: 20px;
     cursor: pointer;
     background-color: rgba(245,222,179,1);
     margin: 2%;

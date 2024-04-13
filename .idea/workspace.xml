@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e7254c5-4eb6-4c25-b26e-d2404bb3c846" name="Changes" comment="work">
+    <list default="true" id="5e7254c5-4eb6-4c25-b26e-d2404bb3c846" name="Changes" comment="отказ от многократных операторов">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONT/calc-back.js" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/calc-back.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/calc-corp.html" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/calc-corp.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "settings.editor.selected.configurable": "Console",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -74,9 +73,6 @@
   </component>
   <component name="RunManager" selected="JavaScript Debug.calc-corp.html">
     <configuration name="calc-corp.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CALC-WEB-/FRONT/calc-corp.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="TEST.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="TEST.js" working-dir="$PROJECT_DIR$/FRONT">
       <method v="2" />
     </configuration>
     <configuration name="calc-back.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="calc-back.js" working-dir="$PROJECT_DIR$/FRONT">
@@ -111,7 +107,11 @@
       <workItem from="1712582689767" duration="6663000" />
       <workItem from="1712589417933" duration="1514000" />
       <workItem from="1712632086756" duration="80000" />
-      <workItem from="1712667036914" duration="1053000" />
+      <workItem from="1712667036914" duration="2225000" />
+      <workItem from="1712671367536" duration="1929000" />
+      <workItem from="1712812454636" duration="4079000" />
+      <workItem from="1712874672801" duration="2396000" />
+      <workItem from="1712880698297" duration="1363000" />
     </task>
     <task id="LOCAL-00001" summary="table">
       <option name="closed" value="true" />
@@ -241,7 +241,31 @@
       <option name="project" value="LOCAL" />
       <updated>1712589400355</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="work">
+      <option name="closed" value="true" />
+      <created>1712668101296</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1712668101296</updated>
+    </task>
+    <task id="LOCAL-00018" summary="какой-то нерабочий кусок го***, завтра разберусь">
+      <option name="closed" value="true" />
+      <created>1712673275833</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1712673275833</updated>
+    </task>
+    <task id="LOCAL-00019" summary="отказ от многократных операторов">
+      <option name="closed" value="true" />
+      <created>1712877014180</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1712877014180</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +290,8 @@
     <MESSAGE value="refactor&#10;полностью перезаписал структуру руками" />
     <MESSAGE value="refactor" />
     <MESSAGE value="work" />
-    <option name="LAST_COMMIT_MESSAGE" value="work" />
+    <MESSAGE value="какой-то нерабочий кусок го***, завтра разберусь" />
+    <MESSAGE value="отказ от многократных операторов" />
+    <option name="LAST_COMMIT_MESSAGE" value="отказ от многократных операторов" />
   </component>
 </project>

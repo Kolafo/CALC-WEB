@@ -1,6 +1,8 @@
 let ans = 0;
 let current = '';
 let operand = '';
+let sum = 0;
+
 // let all = '';
 
 function clearAll() {
@@ -11,6 +13,11 @@ function clearAll() {
 }
 
 function backspace() {
+    if (operand != '' && current.length === 1) {
+        current = '';
+        document.getElementById('result').innerText = '0';
+        return;
+    }
     if (document.getElementById('result').innerText === '0') {
         return;
     }
@@ -24,11 +31,14 @@ function backspace() {
 }
 function insert(value) {
     if (document.getElementById('result').innerText === '0' && value === '.') {
-        document.getElementById('result').innerText = '0.';
         current = '0.';
+        document.getElementById('result').innerText = current;
         return;
     }
-    if ((value === '0') && document.getElementById('result').innerText === '0') {
+    if (value === '.' && current === '' && operand != '') {
+        return;
+    }
+    if (value === '0' && document.getElementById('result').innerText === '0') {
         return;
     }
     if (value === '.' && current.includes('.')) {
@@ -36,10 +46,13 @@ function insert(value) {
     }
     current += value;
     document.getElementById('result').innerText = current;
+    console.log(current + '!')
 }
 
 function operando(value) {
+    console.log(value, current, 'operand')
     /*        all = current + value*/
+    console.log(current)
     if (current != '') {
         val = parseFloat(current)
         current = '';
@@ -49,11 +62,31 @@ function operando(value) {
 }
 
 function percent() {
-    ans = parseFloat(document.getElementById('result').innerText) / 100;
-    document.getElementById('result').innerText = ans;
+    console.log(parseFloat(document.getElementById('result').innerText))
+    if (operand === '') {
+        current = (parseFloat(document.getElementById('result').innerText) / 100).toString();
+        document.getElementById('result').innerText = current;
+    } else {
+        switch (operand) {
+            case '+':
+                current = (val * parseFloat(current)/100).toString()
+                break;
+            case '−':
+                current = (val * parseFloat(current)/100).toString()
+                break;
+            case '×':
+                current = (val / 100).toString()
+                break;
+            case '÷':
+                current = (val / 100).toString()
+                break;
+        }
+        document.getElementById('result').innerText = current
+    }
 }
 
 function calculate() {
+    console.log(current, operand, val, 'ans')
     if (val === '' || operand === '') {
         switch (operand) {
             case '+':
